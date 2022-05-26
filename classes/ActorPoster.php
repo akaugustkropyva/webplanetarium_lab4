@@ -17,4 +17,12 @@ class ActorPoster extends Poster
     {
         return $this->actor;
     }
+
+    /**
+     * @param mixed $actor
+     */
+    public function setActor($actor)
+    {
+        $this->actor = $actor;
+    }
 }

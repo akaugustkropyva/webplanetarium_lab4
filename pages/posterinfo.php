@@ -132,7 +132,7 @@ echo $card;
                 <input type='tel' placeholder="Телефон" name="phone" class="input">
             </label>
             <label>
-                <input type="password" placeholder="Номер банківської картки" name="card" class="input">
+                <input type="number" placeholder="Номер банківської картки" name="card" class="input">
             </label>
             <input type="submit" value="Купити квиток" name="ok" class="button">
         </form>
